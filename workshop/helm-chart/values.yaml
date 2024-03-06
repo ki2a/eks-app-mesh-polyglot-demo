@@ -92,7 +92,7 @@ catalog:
     enabled: false
   volume:
     enabled: false
-  replicaCount: 1
+  replicaCount: 3
   namespace: workshop
   name: prodcatalog
 
