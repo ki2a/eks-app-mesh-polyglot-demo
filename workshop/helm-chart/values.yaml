@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 detail:
-  replicaCount: 2
+  replicaCount: 1
   namespace: workshop
   name: proddetail
 
@@ -92,7 +92,7 @@ catalog:
     enabled: false
   volume:
     enabled: false
-  replicaCount: 3
+  replicaCount: 1
   namespace: workshop
   name: prodcatalog
 
